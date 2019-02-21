@@ -7,23 +7,26 @@ For LR, use ecoli_new.xTest.csv, ecoli_new.xTrain.csv, ecoli_new.yTest.csv, ecol
 
 In the GNB training-testing dataset, ecoli has 5 classes; while in the LR training-testing dataset, ecoli_new has only 2 classes.
 
-#GNB evaluation
-
-0.835 #Fraction of test samples classified correctly
-0.951 #Precision for class 1
-0.975 #Recall for class 1
-0.875 #Precision for class 5
+GNB evaluation
+--------------
+0.835 #Fraction of test samples classified correctly<br />
+0.951 #Precision for class 1<br />
+0.975 #Recall for class 1<br />
+0.875 #Precision for class 5<br />
 0.778 # Recall for class 5
 
-#Evaluation of ecoli_new dataset
- #Using LR
-0.954 #Fraction of test samples classified correctly
-0.973 #Precision for class 1
-0.9 #Recall for class 1
+#Evaluation of ecoli_new dataset<br />
+--------------
+Using LR
 
- #Using GNB
-0.633 #Fraction of Test samples classified correctly
-Nan #Precision for class 1
+0.954 #Fraction of test samples classified correctly<br />
+0.973 #Precision for class 1<br />
+0.9 #Recall for class 1<br />
+
+Using GNB
+
+0.633 #Fraction of Test samples classified correctly<br />
+Nan #Precision for class 1<br />
 0 #Recall for class 1
 
 
